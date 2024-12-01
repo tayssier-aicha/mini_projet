@@ -1,8 +1,9 @@
-<!DOCTYPE html>
+<!DOCTYPE html >
 <html lang="ar" dir="rtl">
-<head>
+<head >
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" >
     <title>كوكب عطارد</title>
 </head>
 <body>
@@ -11,7 +12,7 @@
         <nav>
             <ul>
                <li> 
-                   <a href="	https://ar.wikipedia.org/wiki/عطارد" target="_blank" id="l">
+                   <a href="	https://ar.wikipedia.org/wiki/عطارد" target="_blank"  >
                        مقالة عن كوكب عُطارِد
                    </a>
             </ul>  
@@ -26,7 +27,8 @@
              الأربعة يتميز هذا الكوكب بعدة خصائص فريدة
             </p>
     </main>
-        <aside>
+    <aside>
+            
             <p>
                 <strong> الموقع والحجم</strong>
                 عطارد هو أول كوكب في ترتيب الكواكب من حيث القرب إلى الشمس.
@@ -71,16 +73,22 @@
             </p>
             <form >
                 <fieldset>
-                    <p>: مدى معرفتك عن كوكب عطارد  </p>
-                    <textarea name="p" ></textarea>
+                    <p> مدى معرفتك عن كوكب عطارد  
+                    <br>
+                    <textarea name="z1" id="z1" ></textarea>
+                     </p>
                     <p>هل استفدت ؟
-                        <br>
-                        <input type="radio" name="r"> نعم
-                       <br>
-                       <input type="radio" name="r">  لا
-                        </p> 
-                    <p>: كواكب اخرى </p>
-                    <select name="liste" >
+                    <br>
+                    <p>
+                    نعم
+                    <input type="radio" name="r"> </p>
+                   <p>
+                      لا    
+                   <input type="radio" name="r">
+                    </p> 
+                   <p> كواكب اخرى
+                    <br>
+                    <select name="liste" id="liste" >
                         <option>زحل</option>
                         <option>المريخ</option>
                         <option>المشتري</option>
@@ -88,16 +96,15 @@
                         <option>نبتون</option>
                         <option> أورانوس</option>
                     </select>
-                    <p>
-                        <input type="submit" value="Envoyer">
-                        <input type="reset" value="Annuler">
-                        
+                    </p>
+                    <p><input type="submit" value="Envoyer" class="b">
+                    <input type="reset" value="Annuler" class="b">
                     </p>
                 </fieldset>
             </form>
         </aside>
         <footer>
-            <p><a href="https://science.nasa.gov/mercury/" target="_blank" >للمزيد من المعلمات </a></p>
+            <p id="f"><a href="https://science.nasa.gov/mercury/" target="_blank" >للمزيد من المعلمات </a></p>
         </footer>
 </body>
 </html>

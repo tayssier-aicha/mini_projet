@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    background: linear-gradient(to bottom, rgba(20, 10, 40, 0.9), rgba(100, 40, 40, 0.8));
+    background-attachment: fixed;
+}
+header {
+    text-align: center;
+    padding: 20px;
+    background: rgba(40, 0, 60, 0.85); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: orangered; 
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+}
+nav,ul{
+    list-style: none;
+    padding: 0;
+    margin: 15px 0 0;
+    display: flex;
+    justify-content: center;
+    background: rgba(50, 10, 50, 0.7); 
+    border-radius: 10px;
+}
+nav,a {
+    color: rgb(235, 153, 39) ; 
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 10px;
+    
+}
+nav :hover  {
+    background: rgba(255, 109, 12, 0.3); 
+    transform: scale(1.1);
+}
+main {
+    padding: 30px;
+    width: 900px;
+    margin: 40px auto;
+    background: rgba(20, 10, 40, 0.95); 
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6);
+    color: beige ;
+}
+
+h2 {
+    font-size: 30px;
+    color:orangered; 
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+    text-align: right;
+}
+p {
+    margin: 30px;
+    font-size: 30px;
+    text-align: right;
+    color:blanchedalmond; 
+}
+#f,footer {
+    text-align: center;
+    padding: 15px;
+    background: rgba(37, 0, 55, 0.85); 
+    color: #ff6700;
+    font-size: 20px;
+}
+
+a  {
+    color: #ffdda1;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+#z1{
+    height: 100px;
+    width: 250px;
+}
+.mercury-image {
+    display: block;
+    margin: 20px auto;
+    width: 300px;
+    height: auto;
+    border-radius: 20%; 
+    box-shadow: 0 10px 20px rgba(252, 241, 241, 0.5);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.mercury-image:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.8);
+}
+#liste{
+    font-size: 25px;
+    width: 200px;
+    height: 50px ;
+}
+.b{
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+}
+
